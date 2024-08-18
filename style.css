@@ -23,13 +23,13 @@ header {
     color: white;
 }
 
-img{
-    height:6rem;
+img {
+    height: 10rem;
     float: left;
-    filter: brightness(500%);
-    padding-left:1rem;
+    filter: brightness(50%); /* Darkens the logo */
+    padding-left: 1rem;
+    background-color: transparent; /* Ensures background is transparent */
 }
-
 .heading {
     margin: auto;
     font-family: 'Geologica';
