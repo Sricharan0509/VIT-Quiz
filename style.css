@@ -1,0 +1,129 @@
+html,body {
+    background-image: url("https://img.freepik.com/free-vector/dark-wavy-colors-background_23-2148403785.jpg?size=626&ext=jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+    overflow-x:hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+header {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    background-image: url("https://img.freepik.com/free-psd/abstract-background-design_1297-85.jpg?size=626&ext=jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: fixed; /* Make the header fixed */
+    top: 0; /* Position it at the top of the viewport */
+    color: white;
+}
+
+img{
+    height:6rem;
+    float: left;
+    filter: brightness(500%);
+    padding-left:1rem;
+}
+
+.heading {
+    margin: auto;
+    font-family: 'Geologica';
+    font-size: 3.5rem;
+    font-weight: 1000;
+    text-transform: uppercase;
+    padding-right: 8rem;
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+}
+
+
+main {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center; 
+    height: 100vh; /* Optional: Make sure the main takes up the full viewport height */
+}
+
+.form-container {
+    border: 5px solid rgb(40, 113, 165);
+    text-align: justify;
+    padding: 0.45rem 2rem;
+    /* background-color: rgb(13, 7, 7); */
+    width: fit-content;
+    border-radius: 3%;
+    margin: 8rem auto; /* Horizontally center the form-container within main */
+    background-image: url("https://img.freepik.com/free-psd/abstract-background-design_1297-85.jpg?size=626&ext=jpg");
+    background-position: top; /* Align the background image to the top */
+    background-size: 100%;
+    box-sizing: border-box; /* Include padding and border in the container's dimensions */
+    height:fit-content;
+    
+}
+
+
+h2 {
+    font-family:'Geologica';
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    color: white;
+}
+
+input {
+    margin:0.5rem 0;
+    width: 90%;
+    height: 1.7rem;
+    border-radius: 5%;
+    background-color: transparent;
+    color:white;
+    font-family: 'REM';
+    font-size: 1.2rem;
+    padding:0.2rem;
+}
+
+::placeholder{
+    font-family: 'Belanosima';
+    font-size: 1.01rem;
+    font-weight: 1000;
+    letter-spacing: 0.0rem;
+}
+
+
+label,textarea {
+    font-family: 'Jost';
+    font-weight: 1000;
+    font-size: 1.35rem;
+    color:rgb(115, 157, 233);
+    letter-spacing: 0.09rem;
+}
+
+.Submit {
+    margin:1.5em auto 0.4em auto;
+    text-align:center;
+}
+
+button {    
+    height:2rem;
+    width:5rem;
+    border: 2px solid black;
+    border-radius: 12%;
+}
+
+button:hover {
+    background-color:rgb(9, 226, 238) ;
+}
+
+.alert {
+    color:rgb(255, 0, 0);
+    filter: brightness(500%);
+    display: block;
+    font-size: 1.15rem;
+    font-weight: 1000;
+    letter-spacing:0.1rem;
+}
+
+

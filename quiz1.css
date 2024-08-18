@@ -1,0 +1,246 @@
+body{
+    background-image: url("https://img.freepik.com/free-vector/dark-wavy-colors-background_23-2148403785.jpg?size=626&ext=jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+    overflow-x:hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+header {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    background-image: url("https://img.freepik.com/free-psd/abstract-background-design_1297-85.jpg?size=626&ext=jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: fixed; /* Make the header fixed */
+    top: 0; /* Position it at the top of the viewport */
+    color: white;
+}
+
+img{
+    height:10rem;
+    float: left;
+    filter: brightness(500%);
+    padding-left:1rem;
+}
+.heading {
+    margin: auto;
+    font-family: 'Geologica';
+    font-size: 6rem;
+    font-weight: 1000;
+    text-transform: uppercase;
+    padding-left: 8rem;
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+}
+.heading span{
+    margin-left:45rem;    
+    text-align: center;
+}
+h1 {
+    font-family:'Gabriola', serif;
+    text-align: center;
+}
+h2{
+    font-family: 'REM',sans-serif !important;
+    color: white !important;
+    font-size: 3.5rem !important;
+    padding-right:1.5% !important;
+
+}
+h3{
+    font-family:'Hammersmith One',sans-serif !important;
+    font-size: 7rem !important;
+    color:rgb(255, 255, 255) !important;
+}
+
+h4 {
+    color:#edebeb; 
+    background-color: black;
+    padding:0.5rem;
+    font-size: 2rem !important;
+    position:absolute;
+    left:76%;
+    top:17%;
+    text-align: center;
+    
+}
+h4 span{
+    color:rgb(255, 38, 0);
+    font-family: 'Geologica';
+    height: 20%;
+}
+ul {
+    list-style: none;
+}
+li {
+    font-family:'Cambria', serif;
+    font-size: 1.5em;
+}
+input[type=radio] {
+    border: 0px;
+    width: 20px;
+    height: 2em;
+}
+p {
+    font-family:'Gabriola', serif;
+}
+
+/* Quiz Classes */
+ .quizContainer {
+    background-color: white;
+    border-radius: 6px;
+    width: 50%;
+    height:70rem;
+    margin: 12rem auto;
+    padding-top: 5px;
+    /*-moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 10px 10px 5px #888;*/
+    position: relative;
+    background-image: url("https://img.freepik.com/free-psd/abstract-background-design_1297-85.jpg?size=626&ext=jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.quizcontainer #quiz1
+{
+text-shadow:1px 1px 2px orange;
+font-family:"Georgia", Arial, sans-serif;
+}
+
+.nextButton {
+    box-shadow: 3px 3px 5px #888;
+    border-radius: 6px;
+   /* width: 150px;*/
+    height: 40px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    /*clear: both;*/
+    color: rgb(0, 0, 0);
+    font-family:'Jost', serif;
+    position: relative;
+    margin: auto;
+	font-size:25px;
+	font-weight:bold;
+    padding-top: 5px;
+	float:right;
+	right:30%;
+}
+.nextButton:hover {
+    background-color: #00ff73 !important;
+}
+
+.preButton {
+    box-shadow: 3px 3px 5px #888;
+    border-radius: 6px;
+    /*width: 150px;*/
+    height: 40px;
+    text-align: center;
+    font-family:'Jost', serif !important;
+    background-color: rgb(255, 255, 255);
+    /*clear: both;*/
+    color: rgb(0, 0, 0);
+    font-family:'Gabriola', serif;
+    position: relative;
+    margin: auto;
+	font-size:25px;
+	font-weight:bold;
+    padding-top: 5px;
+	float:left;
+	left:30%;
+}
+.preButton:hover {
+    background-color: #ff0000 !important;
+}
+.nextround {
+    box-shadow: 3px 3px 5px #888;
+    border-radius: 6px;
+    /*width: 150px;*/
+    height: 40px;
+    text-align: center;
+    font-family:'Jost', serif !important;
+    background-color: rgb(255, 255, 255);
+    /*clear: both;*/
+    color: rgb(0, 0, 0);
+    font-family:'Gabriola', serif;
+    position: relative;
+    margin: auto;
+	font-size:25px;
+	font-weight:bold;
+    padding:5px auto;
+     
+	float:left;
+    top:12%;
+	left:28%;
+
+}
+
+.nextround:hover{
+    background-color: #00ff73 !important;
+}
+
+.question {
+    font-family:'Belanosima', serif;
+    font-size: 1.7em;
+	font-weight:bold;
+    width: 100%;
+    height: 5rem;
+    margin: auto;
+    border-radius: 6px;
+    color:black;
+    background-color: #00ffee;
+    /* text-align: center; */
+    padding-left: 2rem;
+}
+.quizMessage {
+    background-color: peachpuff;
+    border-radius: 6px;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    text-wrap:wrap;
+    padding: 5px;
+	font-size:20px;
+	font-weight:bold;
+    font-family:'Gabriola', serif;
+    color: red;
+	position:absolute;
+	top:80%;
+	left:40%;
+}
+.choiceList {
+    font-family: 'Arial', serif;
+    color: #ffffff;
+	font-size:15px;
+	font-weight:bold;
+}
+
+.result {
+    width: 40%;
+    height: auto;
+    border-radius: 6px;
+    font-family: 'REM',sans-serif !important;
+    background-color: linen;
+    margin: auto;
+	color:green;
+    text-align: center;
+	font-size:25px;
+    font-family:'Verdana', serif;
+	font-weight:bold;
+	position:absolute;
+	top:90%;
+	left:30%;
+}
+.imageContainer img {
+    height: 15rem;
+    margin-top:2%;
+    float: right;
+    margin-right: 30%;
+    filter: brightness(100%);
+}
+
+
+/* End of Quiz Classes */

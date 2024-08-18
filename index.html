@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIT ENTRANCE TEST</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="font.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <header>
+
+        <img src="https://ww2.freelogovectors.net/wp-content/uploads/2023/01/vit-logo-freelogovectors.net_.png?lossy=1&w=2560&ssl=1"
+            alt="VIT">
+
+        <div class="heading">
+            <span>VIT ENTRANCE TEST</span>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="form-container">
+
+            <div class="form-head">
+                <h2>REGISTRATION FORM</h2>
+            </div>
+
+            <div class="form-content">
+                <form name="regForm" onsubmit="return validateForm(event);">
+
+                    <!--Name-->
+                    <div class="Name">
+                        <label for="stud-name">Name</label><br>
+                        <input type="text" name="stud-name" id="stud-name" placeholder="Enter your name">
+                        <span id="nameloc" class="alert"></span>
+                    </div>
+
+
+                    <!--Mail-->
+                    <div class="Mail">
+                        <label for="stud-mail">VIT Mail ID</label><br>
+                        <input type="email" name="stud-mail" id="stud-mail" placeholder="Enter your VIT mail id only">
+                        <span id="mailloc" class="alert"></span>
+
+                    </div>
+
+
+                    <!--Submit Button-->
+                    <div class="Submit">
+                        <button type="submit" value="Submit" id="submit_btn">Take Quiz</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+
+
+    </main>
+
+</body>
+
+</html>
